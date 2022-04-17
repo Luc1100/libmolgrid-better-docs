@@ -23,9 +23,7 @@ class AtomTyper;
  *
  * Types may be specified either as an index or a dense vector.
  * Typically, only one type formated will be initialized although
- * a vector one-hot encoding of an index type can be created.
- *
- */
+ * a vector one-hot encoding of an index type can be created. */
 struct CoordinateSet {
   MGrid2f coords{0,3}; //coordinates
   MGrid1f type_index{0}; //this should be integer
@@ -86,8 +84,7 @@ struct CoordinateSet {
   // Docstring_CoordinateSet_make_vector_types
   /** \brief convert index types to vector types in-place
    * @param include_dummy_type - if true will create an additional type at end (has zero radii if type radii are provided is true)
-   * @param type_radii - if provided, convert radii array to be type indexed,
-   */
+   * @param type_radii - if provided, convert radii array to be type indexed.*/
   void make_vector_types(bool include_dummy_type=false, const std::vector<float>& type_radii = std::vector<float>());
 
   /// return number of types

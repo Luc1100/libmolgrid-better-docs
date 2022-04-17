@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>libmolgrid Python documentation &mdash; molgrid  documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -103,7 +102,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="libmolgrid-python-documentation">
+  <div class="section" id="libmolgrid-python-documentation">
 <h1>libmolgrid Python documentation<a class="headerlink" href="#libmolgrid-python-documentation" title="Permalink to this headline"></a></h1>
 <div class="toctree-wrapper compound">
 <ul class="current">
@@ -150,10 +149,10 @@
 <li class="toctree-l1"><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 </div>
-</section>
-<section id="python-docs">
+</div>
+<div class="section" id="python-docs">
 <h1>Python Docs<a class="headerlink" href="#python-docs" title="Permalink to this headline"></a></h1>
-<section id="module-molgrid.torch_bindings">
+<div class="section" id="module-molgrid.torch_bindings">
 <span id="molgrid-torch-bindings-module"></span><h2>molgrid.torch_bindings module<a class="headerlink" href="#module-molgrid.torch_bindings" title="Permalink to this headline"></a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.torch_bindings.BatchedCoords2GridFunction">
@@ -285,10 +284,10 @@ Returns lengths, centers, coords, types, radii, labels all padded to fit maximum
 <dd><p>Return a Grid view of tensor t</p>
 </dd></dl>
 
-</section>
-<section id="molgrid-module-classes">
+</div>
+<div class="section" id="molgrid-module-classes">
 <h2>molgrid module classes<a class="headerlink" href="#molgrid-module-classes" title="Permalink to this headline"></a></h2>
-<section id="the-atomtyper-class">
+<div class="section" id="the-atomtyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">AtomTyper</span></code> class<a class="headerlink" href="#the-atomtyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.AtomTyper">
@@ -299,8 +298,8 @@ Returns lengths, centers, coords, types, radii, labels all padded to fit maximum
 This class cannot be instantiated from Python</p>
 </dd></dl>
 
-</section>
-<section id="the-cartesiangrid-class">
+</div>
+<div class="section" id="the-cartesiangrid-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">CartesianGrid</span></code> class<a class="headerlink" href="#the-cartesiangrid-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.CartesianGrid">
@@ -344,8 +343,8 @@ Includes center and resolution and supports (eventually) interpolation.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-coordinateset-class">
+</div>
+<div class="section" id="the-coordinateset-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">CoordinateSet</span></code> class<a class="headerlink" href="#the-coordinateset-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.CoordinateSet">
@@ -495,7 +494,7 @@ a vector one-hot encoding of an index type can be created.</p>
 </dd>
 </dl>
 </div></blockquote>
-<p>make_vector_types( (CoordinateSet)arg1 [, (bool)include_dummy_type=False [, (FloatVec)type_radii=&lt;molgrid.molgrid.FloatVec object at 0x7ff808209350&gt;]]) -&gt; None :</p>
+<p>make_vector_types( (CoordinateSet)arg1 [, (bool)include_dummy_type=False [, (FloatVec)type_radii=&lt;molgrid.molgrid.FloatVec object at 0x7ff953f252e0&gt;]]) -&gt; None :</p>
 <blockquote>
 <div><blockquote>
 <div><p>convert index types to vector types in-place
@@ -504,7 +503,7 @@ a vector one-hot encoding of an index type can be created.</p>
 </div></blockquote>
 <p>/</p>
 <dl class="simple">
-<dt>C++ signature :</dt><dd><p>void make_vector_types(libmolgrid::CoordinateSet {lvalue} [,bool=False [,std::vector&lt;float, std::allocator&lt;float&gt; &gt;=&lt;molgrid.molgrid.FloatVec object at 0x7ff808209350&gt;]])</p>
+<dt>C++ signature :</dt><dd><p>void make_vector_types(libmolgrid::CoordinateSet {lvalue} [,bool=False [,std::vector&lt;float, std::allocator&lt;float&gt; &gt;=&lt;molgrid.molgrid.FloatVec object at 0x7ff953f252e0&gt;]])</p>
 </dd>
 </dl>
 </div></blockquote>
@@ -600,8 +599,8 @@ a vector one-hot encoding of an index type can be created.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-elementindextyper-class">
+</div>
+<div class="section" id="the-elementindextyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">ElementIndexTyper</span></code> class<a class="headerlink" href="#the-elementindextyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.ElementIndexTyper">
@@ -663,8 +662,8 @@ greater than or equal to the specified max is assigned type zero.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-example-class">
+</div>
+<div class="section" id="the-example-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">Example</span></code> class<a class="headerlink" href="#the-example-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.Example">
@@ -860,8 +859,8 @@ All coordinate sets must have vector typing</p>
 
 </dd></dl>
 
-</section>
-<section id="the-exampleprovider-class">
+</div>
+<div class="section" id="the-exampleprovider-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">ExampleProvider</span></code> class<a class="headerlink" href="#the-exampleprovider-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.ExampleProvider">
@@ -1025,8 +1024,8 @@ if not specified) followed by file paths to molecular data, all space separated.
 
 </dd></dl>
 
-</section>
-<section id="the-exampleprovidersettings-class">
+</div>
+<div class="section" id="the-exampleprovidersettings-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">ExampleProviderSettings</span></code> class<a class="headerlink" href="#the-exampleprovidersettings-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.ExampleProviderSettings">
@@ -1169,8 +1168,8 @@ if not specified) followed by file paths to molecular data, all space separated.
 
 </dd></dl>
 
-</section>
-<section id="the-examplevec-class">
+</div>
+<div class="section" id="the-examplevec-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">ExampleVec</span></code> class<a class="headerlink" href="#the-examplevec-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.ExampleVec">
@@ -1317,8 +1316,8 @@ if not specified) followed by file paths to molecular data, all space separated.
 
 </dd></dl>
 
-</section>
-<section id="the-fileatommapper-class">
+</div>
+<div class="section" id="the-fileatommapper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">FileAtomMapper</span></code> class<a class="headerlink" href="#the-fileatommapper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.FileAtomMapper">
@@ -1365,8 +1364,8 @@ This class must be provided the type names properly indexed (should match get_ty
 
 </dd></dl>
 
-</section>
-<section id="the-filemappedelementtyper-class">
+</div>
+<div class="section" id="the-filemappedelementtyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">FileMappedElementTyper</span></code> class<a class="headerlink" href="#the-filemappedelementtyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.FileMappedElementTyper">
@@ -1414,8 +1413,8 @@ This class must be provided the type names properly indexed (should match get_ty
 
 </dd></dl>
 
-</section>
-<section id="the-filemappedgninatyper-class">
+</div>
+<div class="section" id="the-filemappedgninatyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">FileMappedGninaTyper</span></code> class<a class="headerlink" href="#the-filemappedgninatyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.FileMappedGninaTyper">
@@ -1463,8 +1462,8 @@ This class must be provided the type names properly indexed (should match get_ty
 
 </dd></dl>
 
-</section>
-<section id="the-gninaindextyper-class">
+</div>
+<div class="section" id="the-gninaindextyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">GninaIndexTyper</span></code> class<a class="headerlink" href="#the-gninaindextyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.GninaIndexTyper">
@@ -1524,8 +1523,8 @@ Calculate gnina types</p>
 
 </dd></dl>
 
-</section>
-<section id="the-gninavectortyper-class">
+</div>
+<div class="section" id="the-gninavectortyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">GninaVectorTyper</span></code> class<a class="headerlink" href="#the-gninavectortyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.GninaVectorTyper">
@@ -1567,8 +1566,8 @@ Calculate gnina types</p>
 
 </dd></dl>
 
-</section>
-<section id="the-gridmaker-class">
+</div>
+<div class="section" id="the-gridmaker-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">GridMaker</span></code> class<a class="headerlink" href="#the-gridmaker-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.GridMaker">
@@ -2565,8 +2564,8 @@ The center specified in the transform will be used as the grid center.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-nullindextyper-class">
+</div>
+<div class="section" id="the-nullindextyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">NullIndexTyper</span></code> class<a class="headerlink" href="#the-nullindextyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.NullIndexTyper">
@@ -2615,8 +2614,8 @@ The center specified in the transform will be used as the grid center.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-pythoncallbackindextyper-class">
+</div>
+<div class="section" id="the-pythoncallbackindextyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">PythonCallbackIndexTyper</span></code> class<a class="headerlink" href="#the-pythoncallbackindextyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.PythonCallbackIndexTyper">
@@ -2655,8 +2654,8 @@ The center specified in the transform will be used as the grid center.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-pythoncallbackvectortyper-class">
+</div>
+<div class="section" id="the-pythoncallbackvectortyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">PythonCallbackVectorTyper</span></code> class<a class="headerlink" href="#the-pythoncallbackvectortyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.PythonCallbackVectorTyper">
@@ -2695,8 +2694,8 @@ The center specified in the transform will be used as the grid center.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-quaternion-class">
+</div>
+<div class="section" id="the-quaternion-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">Quaternion</span></code> class<a class="headerlink" href="#the-quaternion-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.Quaternion">
@@ -2812,8 +2811,8 @@ for maximum CUDA performance.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-subsetatommapper-class">
+</div>
+<div class="section" id="the-subsetatommapper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">SubsetAtomMapper</span></code> class<a class="headerlink" href="#the-subsetatommapper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.SubsetAtomMapper">
@@ -2850,10 +2849,10 @@ for maximum CUDA performance.</p>
 </dd>
 </dl>
 </div></blockquote>
-<p>__init__( (object)arg1, (list)map [, (bool)catchall=True [, (StringVec)old_names=&lt;molgrid.molgrid.StringVec object at 0x7ff808209200&gt;]]) -&gt; object :</p>
+<p>__init__( (object)arg1, (list)map [, (bool)catchall=True [, (StringVec)old_names=&lt;molgrid.molgrid.StringVec object at 0x7ff953f25190&gt;]]) -&gt; object :</p>
 <blockquote>
 <div><dl class="simple">
-<dt>C++ signature :</dt><dd><p>void* __init__(boost::python::api::object,boost::python::list [,bool=True [,std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;=&lt;molgrid.molgrid.StringVec object at 0x7ff808209200&gt;]])</p>
+<dt>C++ signature :</dt><dd><p>void* __init__(boost::python::api::object,boost::python::list [,bool=True [,std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;=&lt;molgrid.molgrid.StringVec object at 0x7ff953f25190&gt;]])</p>
 </dd>
 </dl>
 </div></blockquote>
@@ -2886,8 +2885,8 @@ for maximum CUDA performance.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-subsettedelementtyper-class">
+</div>
+<div class="section" id="the-subsettedelementtyper-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">SubsettedElementTyper</span></code> class<a class="headerlink" href="#the-subsettedelementtyper-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.SubsettedElementTyper">
@@ -2935,8 +2934,8 @@ for maximum CUDA performance.</p>
 
 </dd></dl>
 
-</section>
-<section id="the-transform-class">
+</div>
+<div class="section" id="the-transform-class">
 <h3>The <code class="docutils literal notranslate"><span class="pre">Transform</span></code> class<a class="headerlink" href="#the-transform-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.Transform">
@@ -3187,9 +3186,9 @@ in-place.</p>
 
 </dd></dl>
 
-</section>
-</section>
-<section id="module-molgrid">
+</div>
+</div>
+<div class="section" id="module-molgrid">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-molgrid" title="Permalink to this headline"></a></h2>
 <dl class="py function">
 <dt class="sig sig-object py" id="molgrid.get_gpu_device">
@@ -3328,14 +3327,14 @@ Values are multiplied by scale, which may be necessary to adjust for limited pre
 </dl>
 </dd></dl>
 
-</section>
-</section>
-<section id="indices-and-tables">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline"></a></h1>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
 </ul>
-</section>
+</div>
 
 
            </div>

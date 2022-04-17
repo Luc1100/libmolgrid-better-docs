@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="321" column="15" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="321" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="321" column="15" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="321" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a465880796d95af0ed2be2a015b58202d" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="322" column="10" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="322" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="322" column="10" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="322" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1aad36546e8175d2922bee165fe028fedc" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="323" column="10" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="323" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="323" column="10" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="323" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a0b0ede69e8156eb97acc579b88e883de" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="323" column="15" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="323" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="323" column="15" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="323" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a4736138d712d9ee570d0652f08a4786a" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="323" column="20" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="323" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="323" column="20" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="323" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a61e9e4f44d01297c0fdd0d3fe827d534" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="324" column="7" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="324" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="324" column="7" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="324" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a328cfab556bca9b9fffefeb43a0dc490" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="325" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="325" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="325" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="325" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="328" column="12" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="328" bodyend="337"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="328" column="12" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="328" bodyend="337"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="339" column="3" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="339" bodyend="339"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="339" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="339" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a7283e7554f9b6a2b1269ba97c75d6558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="340" column="3" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="340" bodyend="358"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="340" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="340" bodyend="358"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a8b9d408cf4383f3569d23636d5f3e62a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="360" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="360" bodyend="366"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="360" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="360" bodyend="366"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1ad61784c785dd62f4d4e1d1fec3cf2f6e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="368" column="18" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="368" bodyend="374"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="368" column="18" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="368" bodyend="374"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a4fc01d736fe50cf5b977f755b675f11d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="376" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="376" bodyend="393"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="376" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="376" bodyend="393"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1ae630292b50e44deb19e001f322914934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="395" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="395" bodyend="400"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="395" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="395" bodyend="400"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a126a73e6d140f9e2a7b795c20fa42f70" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>unsigned</type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="402" column="12" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="402" bodyend="411"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="402" column="12" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="402" bodyend="411"/>
         <referencedby refid="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1ad61784c785dd62f4d4e1d1fec3cf2f6e" compoundref="exampleref__providers_8h" startline="368" endline="374">ValueStratifiedExampleRefProfider&lt; Provider &gt;::num_labels</referencedby>
         <referencedby refid="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a4fc01d736fe50cf5b977f755b675f11d" compoundref="exampleref__providers_8h" startline="376" endline="393">ValueStratifiedExampleRefProfider&lt; Provider &gt;::setup</referencedby>
       </memberdef>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="413" column="18" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="413" bodyend="422"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="413" column="18" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="413" bodyend="422"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1ac2a4bfd5fd0579c2377a181a7bae1395" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="424" column="18" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="424" bodyend="432"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="424" column="18" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="424" bodyend="432"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a7b0e029102ad38f4b814c6523aedb53d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="434" column="16" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="434" bodyend="441"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="434" column="16" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="434" bodyend="441"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleRefProvider_1aee411e008a9cb6d21a7f465c608b7028" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="36" column="18" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="36" bodyend="36"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="36" column="18" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="36" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleRefProvider_1a0f9ab6a4312a9937752f660a907b928a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -316,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="37" column="18" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="37" bodyend="37"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="37" column="18" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="37" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleRefProvider_1a9c9f40c52d51bd365750f062aff89a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int</type>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="41" column="17" bodyfile="/home/dkoes/git/libmolgrid/src/exampleref_providers.cpp" bodystart="48" bodyend="62"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="41" column="17" bodyfile="/home/lnm48/libmolgrid-better-docs/src/exampleref_providers.cpp" bodystart="48" bodyend="62"/>
         <referencedby refid="classlibmolgrid_1_1ExampleDataset_1af034c26f3c6c9d88821e1db792e4e874" compoundref="example__dataset_8cpp" startline="45" endline="50">ExampleDataset::populate</referencedby>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleRefProvider_1a5edd8a3461f4aa311675b712ae2e1d20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="44" column="20" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="44" bodyend="44"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="44" column="20" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleRefProvider_1ac881e6a758225142e37f3811184b156c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -369,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="47" column="20" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="47" bodyend="47"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="47" column="20" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="47" bodyend="47"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -385,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="25" column="12" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="25" column="12" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="25" bodyend="-1"/>
         <referencedby refid="classlibmolgrid_1_1ExampleRefProvider_1ac881e6a758225142e37f3811184b156c" compoundref="exampleref__providers_8h" startline="47" endline="47">ExampleRefProvider::get_large_epoch_num</referencedby>
         <referencedby refid="classlibmolgrid_1_1ExampleRefProvider_1a5edd8a3461f4aa311675b712ae2e1d20" compoundref="exampleref__providers_8h" startline="44" endline="44">ExampleRefProvider::get_small_epoch_num</referencedby>
         <referencedby refid="classlibmolgrid_1_1SamplingExampleRefProvider_1ae630292b50e44deb19e001f322914934" compoundref="exampleref__providers_8h" startline="162" endline="171">SamplingExampleRefProvider&lt; Provider1, Provider2 &gt;::nextref</referencedby>
@@ -429,7 +429,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" line="320" column="1" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/exampleref_providers.h" bodystart="319" bodyend="442"/>
+    <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" line="320" column="1" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/exampleref_providers.h" bodystart="319" bodyend="442"/>
     <listofallmembers>
       <member refid="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1a8b9d408cf4383f3569d23636d5f3e62a" prot="public" virt="virtual"><scope>libmolgrid::ValueStratifiedExampleRefProfider</scope><name>addref</name></member>
       <member refid="classlibmolgrid_1_1ValueStratifiedExampleRefProfider_1aafe02a48e6c0a187ad218cffeddab088" prot="private" virt="non-virtual"><scope>libmolgrid::ValueStratifiedExampleRefProfider</scope><name>bin</name></member>

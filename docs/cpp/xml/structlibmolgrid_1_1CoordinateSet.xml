@@ -16,27 +16,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="30" column="11" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="28" column="11" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="28" bodyend="-1"/>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1af08f43a3ae58eb252a6d1faafeb4827a" compoundref="grid__maker_8h" startline="315" endline="322">GridMaker::backward</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aa84965150fcdef1913fdc8a2c9d59e39" compoundref="grid__maker_8h" startline="509" endline="520">GridMaker::backward_gradients</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1abd049b5c336260d2448ff1cba930d029" compoundref="grid__maker_8h" startline="559" endline="567">GridMaker::backward_relevance</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a437464eaf145c5829daa0cbb90c95dee" compoundref="coordinateset_8cpp" startline="214" endline="229">CoordinateSet::center</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="119" endline="126">CoordinateSet::clone</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="116" endline="123">CoordinateSet::clone</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a4c5326fdb5f7070c0e9eff34a793ad63" compoundref="coordinateset_8cpp" startline="75" endline="94">CoordinateSet::CoordinateSet</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" compoundref="coordinateset_8cpp" startline="252" endline="261">CoordinateSet::copyInto</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a5e03f82a57c74b8044e504f82ae74fa6" compoundref="coordinateset_8cpp" startline="313" endline="319">CoordinateSet::copyTo</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a277bc85222ba9a7d0fd47fd10d44d115" compoundref="coordinateset_8cpp" startline="231" endline="243">CoordinateSet::dump</referencedby>
         <referencedby refid="classlibmolgrid_1_1Transform_1a528689e8c1bf63b7ec5b89c2abbed0bd" compoundref="transform_8cpp" startline="45" endline="55">Transform::forward</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aeffc1b17fc2a5f03d097fb89cbccba94" compoundref="grid__maker_8h" startline="132" endline="138">GridMaker::forward</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0383762ea62d2afd3844dea2c4a0befb" compoundref="coordinateset_8h" startline="81" endline="81">CoordinateSet::has_indexed_types</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ab6edf84f5519b886ea22a9c44aef3ff5" compoundref="coordinateset_8h" startline="84" endline="84">CoordinateSet::has_vector_types</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0383762ea62d2afd3844dea2c4a0befb" compoundref="coordinateset_8h" startline="79" endline="79">CoordinateSet::has_indexed_types</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ab6edf84f5519b886ea22a9c44aef3ff5" compoundref="coordinateset_8h" startline="82" endline="82">CoordinateSet::has_vector_types</referencedby>
         <referencedby refid="structlibmolgrid_1_1Example_1aadbf4bff47ee7557c49edcb73e404604" compoundref="example_8cpp" startline="71" endline="102">Example::merge_coordinates</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ace9805532c7567a89ac854e292a1b980" compoundref="coordinateset_8cpp" startline="263" endline="309">CoordinateSet::mergeInto</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="113" endline="116">CoordinateSet::operator==</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a126a73e6d140f9e2a7b795c20fa42f70" compoundref="coordinateset_8h" startline="104" endline="104">CoordinateSet::size</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="110" endline="113">CoordinateSet::operator==</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a126a73e6d140f9e2a7b795c20fa42f70" compoundref="coordinateset_8h" startline="101" endline="101">CoordinateSet::size</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a21abd5ed9a14048e25427e92766cf133" compoundref="coordinateset_8cpp" startline="245" endline="250">CoordinateSet::size_like</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="110" endline="110">CoordinateSet::tocpu</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="109" endline="109">CoordinateSet::togpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="107" endline="107">CoordinateSet::tocpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="106" endline="106">CoordinateSet::togpu</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structlibmolgrid_1_1CoordinateSet_1aa1f38e257ccb35de6423f6e749ff28f3" prot="public" static="no" mutable="no">
         <type>MGrid1f</type>
@@ -50,24 +50,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="31" column="11" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="29" column="11" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="29" bodyend="-1"/>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1afd195c83a9bcdcb18917c25d2f5f7051" compoundref="grid__maker_8h" startline="334" endline="341">GridMaker::backward</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1abd049b5c336260d2448ff1cba930d029" compoundref="grid__maker_8h" startline="559" endline="567">GridMaker::backward_relevance</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="119" endline="126">CoordinateSet::clone</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="116" endline="123">CoordinateSet::clone</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a4c5326fdb5f7070c0e9eff34a793ad63" compoundref="coordinateset_8cpp" startline="75" endline="94">CoordinateSet::CoordinateSet</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" compoundref="coordinateset_8cpp" startline="252" endline="261">CoordinateSet::copyInto</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a5e03f82a57c74b8044e504f82ae74fa6" compoundref="coordinateset_8cpp" startline="313" endline="319">CoordinateSet::copyTo</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a277bc85222ba9a7d0fd47fd10d44d115" compoundref="coordinateset_8cpp" startline="231" endline="243">CoordinateSet::dump</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aeffc1b17fc2a5f03d097fb89cbccba94" compoundref="grid__maker_8h" startline="132" endline="138">GridMaker::forward</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0383762ea62d2afd3844dea2c4a0befb" compoundref="coordinateset_8h" startline="81" endline="81">CoordinateSet::has_indexed_types</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0383762ea62d2afd3844dea2c4a0befb" compoundref="coordinateset_8h" startline="79" endline="79">CoordinateSet::has_indexed_types</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0e5b397d8ab22663778fe8cf1d47f3d7" compoundref="coordinateset_8cpp" startline="187" endline="212">CoordinateSet::make_vector_types</referencedby>
         <referencedby refid="structlibmolgrid_1_1Example_1aadbf4bff47ee7557c49edcb73e404604" compoundref="example_8cpp" startline="71" endline="102">Example::merge_coordinates</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ace9805532c7567a89ac854e292a1b980" compoundref="coordinateset_8cpp" startline="263" endline="309">CoordinateSet::mergeInto</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="113" endline="116">CoordinateSet::operator==</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="110" endline="113">CoordinateSet::operator==</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a21abd5ed9a14048e25427e92766cf133" compoundref="coordinateset_8cpp" startline="245" endline="250">CoordinateSet::size_like</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1aa9fc4f9f4863682959d5b4df0259546a" compoundref="coordinateset_8cpp" startline="351" endline="373">CoordinateSet::sum_types</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="110" endline="110">CoordinateSet::tocpu</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="109" endline="109">CoordinateSet::togpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="107" endline="107">CoordinateSet::tocpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="106" endline="106">CoordinateSet::togpu</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structlibmolgrid_1_1CoordinateSet_1a94c1de66d5b2a1b72b12390f62e933d2" prot="public" static="no" mutable="no">
         <type>MGrid2f</type>
@@ -81,23 +81,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="32" column="11" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="30" column="11" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="30" bodyend="-1"/>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1af08f43a3ae58eb252a6d1faafeb4827a" compoundref="grid__maker_8h" startline="315" endline="322">GridMaker::backward</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aa84965150fcdef1913fdc8a2c9d59e39" compoundref="grid__maker_8h" startline="509" endline="520">GridMaker::backward_gradients</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="119" endline="126">CoordinateSet::clone</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="116" endline="123">CoordinateSet::clone</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0d12f64812a930fd456f29565d3a2a6f" compoundref="coordinateset_8cpp" startline="137" endline="158">CoordinateSet::CoordinateSet</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" compoundref="coordinateset_8cpp" startline="252" endline="261">CoordinateSet::copyInto</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a83a328bdae1d46ef085214c4e2908a3b" compoundref="coordinateset_8cpp" startline="327" endline="345">CoordinateSet::copyTo</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aeffc1b17fc2a5f03d097fb89cbccba94" compoundref="grid__maker_8h" startline="132" endline="138">GridMaker::forward</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ab6edf84f5519b886ea22a9c44aef3ff5" compoundref="coordinateset_8h" startline="84" endline="84">CoordinateSet::has_vector_types</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ab6edf84f5519b886ea22a9c44aef3ff5" compoundref="coordinateset_8h" startline="82" endline="82">CoordinateSet::has_vector_types</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0e5b397d8ab22663778fe8cf1d47f3d7" compoundref="coordinateset_8cpp" startline="187" endline="212">CoordinateSet::make_vector_types</referencedby>
         <referencedby refid="structlibmolgrid_1_1Example_1aa0927ed6ec846f2a8e7daeb64e39795d" compoundref="example_8cpp" startline="140" endline="198">Example::merge_coordinates</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ace9805532c7567a89ac854e292a1b980" compoundref="coordinateset_8cpp" startline="263" endline="309">CoordinateSet::mergeInto</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="113" endline="116">CoordinateSet::operator==</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="110" endline="113">CoordinateSet::operator==</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a21abd5ed9a14048e25427e92766cf133" compoundref="coordinateset_8cpp" startline="245" endline="250">CoordinateSet::size_like</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1aa9fc4f9f4863682959d5b4df0259546a" compoundref="coordinateset_8cpp" startline="351" endline="373">CoordinateSet::sum_types</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="110" endline="110">CoordinateSet::tocpu</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="109" endline="109">CoordinateSet::togpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="107" endline="107">CoordinateSet::tocpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="106" endline="106">CoordinateSet::togpu</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structlibmolgrid_1_1CoordinateSet_1aa9e99857d75e6127d4ea0d461d6b4e77" prot="public" static="no" mutable="no">
         <type>MGrid1f</type>
@@ -111,11 +111,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="33" column="11" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="31" column="11" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="31" bodyend="-1"/>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1af08f43a3ae58eb252a6d1faafeb4827a" compoundref="grid__maker_8h" startline="315" endline="322">GridMaker::backward</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aa84965150fcdef1913fdc8a2c9d59e39" compoundref="grid__maker_8h" startline="509" endline="520">GridMaker::backward_gradients</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1abd049b5c336260d2448ff1cba930d029" compoundref="grid__maker_8h" startline="559" endline="567">GridMaker::backward_relevance</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="119" endline="126">CoordinateSet::clone</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" compoundref="coordinateset_8h" startline="116" endline="123">CoordinateSet::clone</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a4c5326fdb5f7070c0e9eff34a793ad63" compoundref="coordinateset_8cpp" startline="75" endline="94">CoordinateSet::CoordinateSet</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" compoundref="coordinateset_8cpp" startline="252" endline="261">CoordinateSet::copyInto</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a5e03f82a57c74b8044e504f82ae74fa6" compoundref="coordinateset_8cpp" startline="313" endline="319">CoordinateSet::copyTo</referencedby>
@@ -123,10 +123,10 @@
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0e5b397d8ab22663778fe8cf1d47f3d7" compoundref="coordinateset_8cpp" startline="187" endline="212">CoordinateSet::make_vector_types</referencedby>
         <referencedby refid="structlibmolgrid_1_1Example_1aadbf4bff47ee7557c49edcb73e404604" compoundref="example_8cpp" startline="71" endline="102">Example::merge_coordinates</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ace9805532c7567a89ac854e292a1b980" compoundref="coordinateset_8cpp" startline="263" endline="309">CoordinateSet::mergeInto</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="113" endline="116">CoordinateSet::operator==</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="110" endline="113">CoordinateSet::operator==</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a21abd5ed9a14048e25427e92766cf133" compoundref="coordinateset_8cpp" startline="245" endline="250">CoordinateSet::size_like</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="110" endline="110">CoordinateSet::tocpu</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="109" endline="109">CoordinateSet::togpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" compoundref="coordinateset_8h" startline="107" endline="107">CoordinateSet::tocpu</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" compoundref="coordinateset_8h" startline="106" endline="106">CoordinateSet::togpu</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structlibmolgrid_1_1CoordinateSet_1a9a1fde4b37ea791b44ef34157cc33584" prot="public" static="no" mutable="no">
         <type>unsigned</type>
@@ -141,17 +141,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="34" column="12" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="32" column="12" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="32" bodyend="-1"/>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0d12f64812a930fd456f29565d3a2a6f" compoundref="coordinateset_8cpp" startline="137" endline="158">CoordinateSet::CoordinateSet</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" compoundref="coordinateset_8cpp" startline="252" endline="261">CoordinateSet::copyInto</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aca37b69a1f1f60ca9cc298584e7c2bb7" compoundref="grid__maker_8cpp" startline="110" endline="116">GridMaker::forward</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0e5b397d8ab22663778fe8cf1d47f3d7" compoundref="coordinateset_8cpp" startline="187" endline="212">CoordinateSet::make_vector_types</referencedby>
         <referencedby refid="structlibmolgrid_1_1Example_1aadbf4bff47ee7557c49edcb73e404604" compoundref="example_8cpp" startline="71" endline="102">Example::merge_coordinates</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1ace9805532c7567a89ac854e292a1b980" compoundref="coordinateset_8cpp" startline="263" endline="309">CoordinateSet::mergeInto</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a5e84ac0f1e5fbb3fd24d137b02de0a3f" compoundref="coordinateset_8h" startline="94" endline="94">CoordinateSet::num_types</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="113" endline="116">CoordinateSet::operator==</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a5e84ac0f1e5fbb3fd24d137b02de0a3f" compoundref="coordinateset_8h" startline="91" endline="91">CoordinateSet::num_types</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" compoundref="coordinateset_8h" startline="110" endline="113">CoordinateSet::operator==</referencedby>
         <referencedby refid="classlibmolgrid_1_1CoordCache_1a662441ec29d3f52a26ef98ad723b80a3" compoundref="coord__cache_8cpp" startline="76" endline="172">CoordCache::set_coords</referencedby>
-        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9089849cf94e065c175238376bf18acc" compoundref="coordinateset_8h" startline="97" endline="97">CoordinateSet::set_num_types</referencedby>
+        <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a9089849cf94e065c175238376bf18acc" compoundref="coordinateset_8h" startline="94" endline="94">CoordinateSet::set_num_types</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structlibmolgrid_1_1CoordinateSet_1af51e37c9331049b1e3d250a7c8bc3c26" prot="public" static="no" mutable="no">
         <type>const char *</type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="35" column="14" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="33" column="14" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="33" bodyend="-1"/>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" compoundref="coordinateset_8cpp" startline="252" endline="261">CoordinateSet::copyInto</referencedby>
         <referencedby refid="classlibmolgrid_1_1CoordCache_1a662441ec29d3f52a26ef98ad723b80a3" compoundref="coord__cache_8cpp" startline="76" endline="172">CoordCache::set_coords</referencedby>
       </memberdef>
@@ -183,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="37" column="3" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="37" bodyend="37"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="35" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="35" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a719045b5fd0daf9c088757c8fc472faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="40" column="3"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="38" column="3"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a98107b1a6afad7cf14271f71f0b019c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="41" column="3"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="39" column="3"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a4c5326fdb5f7070c0e9eff34a793ad63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="44" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="75" bodyend="94"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="42" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="75" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1ac421c7c6c868e29caf32fd65ae4ac8f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="45" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="97" bodyend="113"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="43" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="97" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a99005f3fa607768e70393978a8cac1c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -311,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="48" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="116" bodyend="121"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="46" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="116" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1acdc0f7d756295891ee55a6b6a51d7cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="49" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="123" bodyend="128"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="47" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="123" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a0d12f64812a930fd456f29565d3a2a6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -366,7 +366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="52" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="137" bodyend="158"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="50" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="137" bodyend="158"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1afef7471a5b7cf9edb353f43e0ab7bd7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -392,7 +392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="55" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="161" bodyend="166"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="53" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="161" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1ad22e94bba40b6fa67632488426314973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -417,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="56" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="168" bodyend="173"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="54" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="168" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a0e160c086e322f69de24be62aa91f265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -444,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="60" column="3" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="176" bodyend="183"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="58" column="3" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="176" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a5e03f82a57c74b8044e504f82ae74fa6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -477,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="69" column="10" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="313" bodyend="319"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="67" column="10" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="313" bodyend="319"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a83a328bdae1d46ef085214c4e2908a3b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -510,7 +510,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="78" column="10" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="327" bodyend="345"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="76" column="10" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="327" bodyend="345"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a0383762ea62d2afd3844dea2c4a0befb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -524,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="81" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="81" bodyend="81"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="79" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="79" bodyend="79"/>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1afd195c83a9bcdcb18917c25d2f5f7051" compoundref="grid__maker_8h" startline="334" endline="341">GridMaker::backward</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1abd049b5c336260d2448ff1cba930d029" compoundref="grid__maker_8h" startline="559" endline="567">GridMaker::backward_relevance</referencedby>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a277bc85222ba9a7d0fd47fd10d44d115" compoundref="coordinateset_8cpp" startline="231" endline="243">CoordinateSet::dump</referencedby>
@@ -543,7 +543,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="84" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="84" bodyend="84"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="82" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="82" bodyend="82"/>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1af08f43a3ae58eb252a6d1faafeb4827a" compoundref="grid__maker_8h" startline="315" endline="322">GridMaker::backward</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aa84965150fcdef1913fdc8a2c9d59e39" compoundref="grid__maker_8h" startline="509" endline="520">GridMaker::backward_gradients</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aeffc1b17fc2a5f03d097fb89cbccba94" compoundref="grid__maker_8h" startline="132" endline="138">GridMaker::forward</referencedby>
@@ -582,7 +582,7 @@
 <parametername>type_radii</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- if provided, convert radii array to be type indexed, </para>
+<para>- if provided, convert radii array to be type indexed. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -590,7 +590,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="91" column="8" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="187" bodyend="212"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="88" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="187" bodyend="212"/>
         <referencedby refid="classlibmolgrid_1_1CoordCache_1a662441ec29d3f52a26ef98ad723b80a3" compoundref="coord__cache_8cpp" startline="76" endline="172">CoordCache::set_coords</referencedby>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a5e84ac0f1e5fbb3fd24d137b02de0a3f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -605,7 +605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="94" column="12" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="94" bodyend="94"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="91" column="12" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="91" bodyend="91"/>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1aa9fc4f9f4863682959d5b4df0259546a" compoundref="coordinateset_8cpp" startline="351" endline="373">CoordinateSet::sum_types</referencedby>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a9089849cf94e065c175238376bf18acc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -624,7 +624,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="97" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="97" bodyend="97"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="94" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="94" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1aa9fc4f9f4863682959d5b4df0259546a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -647,7 +647,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="100" column="8" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="351" bodyend="373"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="97" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="351" bodyend="373"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1abdefa3470ca1e88655974b3f462e2c4a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -669,7 +669,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="101" column="8"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="98" column="8"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a126a73e6d140f9e2a7b795c20fa42f70" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>unsigned</type>
@@ -683,7 +683,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="104" column="12" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="104" bodyend="104"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="101" column="12" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="101" bodyend="101"/>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0d12f64812a930fd456f29565d3a2a6f" compoundref="coordinateset_8cpp" startline="137" endline="158">CoordinateSet::CoordinateSet</referencedby>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aeffc1b17fc2a5f03d097fb89cbccba94" compoundref="grid__maker_8h" startline="132" endline="138">GridMaker::forward</referencedby>
       </memberdef>
@@ -699,7 +699,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="107" column="10" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="214" bodyend="229"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="104" column="10" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="214" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a86d0fc4270857cba42078a81e98f3596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -717,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="109" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="109" bodyend="109"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="106" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="106" bodyend="106"/>
         <referencedby refid="classlibmolgrid_1_1GridMaker_1aca37b69a1f1f60ca9cc298584e7c2bb7" compoundref="grid__maker_8cpp" startline="110" endline="116">GridMaker::forward</referencedby>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a9fa092e067d02308ff2927831ea64d6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -736,7 +736,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="110" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="110" bodyend="110"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="107" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a3407f177ad82eececcc71584fa62e0b8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -753,7 +753,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="113" column="8" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="113" bodyend="116"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="110" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="110" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structlibmolgrid_1_1CoordinateSet" kindref="compound">CoordinateSet</ref></type>
@@ -767,7 +767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="119" column="17" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="119" bodyend="126"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="116" column="17" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="116" bodyend="123"/>
         <referencedby refid="classlibmolgrid_1_1CoordCache_1a662441ec29d3f52a26ef98ad723b80a3" compoundref="coord__cache_8cpp" startline="76" endline="172">CoordCache::set_coords</referencedby>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a21abd5ed9a14048e25427e92766cf133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -786,7 +786,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="129" column="8" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="245" bodyend="250"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="126" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="245" bodyend="250"/>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" compoundref="coordinateset_8cpp" startline="252" endline="261">CoordinateSet::copyInto</referencedby>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a93fac00245289d84e768314d1e3f361b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -805,7 +805,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="132" column="8" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="252" bodyend="261"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="129" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="252" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1ace9805532c7567a89ac854e292a1b980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -832,7 +832,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="135" column="8" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="263" bodyend="309"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="132" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="263" bodyend="309"/>
         <referencedby refid="structlibmolgrid_1_1CoordinateSet_1a0e160c086e322f69de24be62aa91f265" compoundref="coordinateset_8cpp" startline="176" endline="183">CoordinateSet::CoordinateSet</referencedby>
       </memberdef>
       <memberdef kind="function" id="structlibmolgrid_1_1CoordinateSet_1a277bc85222ba9a7d0fd47fd10d44d115" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
@@ -851,7 +851,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="138" column="8" bodyfile="/home/dkoes/git/libmolgrid/src/coordinateset.cpp" bodystart="231" bodyend="243"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="135" column="8" bodyfile="/home/lnm48/libmolgrid-better-docs/src/coordinateset.cpp" bodystart="231" bodyend="243"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -860,7 +860,7 @@
     <detaileddescription>
 <para>Types may be specified either as an index or a dense vector. Typically, only one type formated will be initialized although a vector one-hot encoding of an index type can be created. </para>
     </detaileddescription>
-    <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" line="29" column="20" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/coordinateset.h" bodystart="29" bodyend="139"/>
+    <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" line="27" column="20" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/coordinateset.h" bodystart="27" bodyend="136"/>
     <listofallmembers>
       <member refid="structlibmolgrid_1_1CoordinateSet_1a437464eaf145c5829daa0cbb90c95dee" prot="public" virt="non-virtual"><scope>libmolgrid::CoordinateSet</scope><name>center</name></member>
       <member refid="structlibmolgrid_1_1CoordinateSet_1a19ad80288a826f7bbcbcd8d100c3587a" prot="public" virt="non-virtual"><scope>libmolgrid::CoordinateSet</scope><name>clone</name></member>

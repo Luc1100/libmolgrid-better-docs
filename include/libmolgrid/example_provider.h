@@ -24,8 +24,7 @@ namespace libmolgrid {
  *
  * An example files contains a single example on each line where an example
  * consists of some number of numerical labels (num_labels, will be auto-detected
- * if not specified) followed by file paths to molecular data, all space separated.
- */
+ * if not specified) followed by file paths to molecular data, all space separated.*/
 class ExampleProvider {
     std::shared_ptr<ExampleRefProvider> provider;
     ExampleExtractor extractor;

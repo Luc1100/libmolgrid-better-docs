@@ -231,6 +231,6 @@
 <codeline></codeline>
 <codeline></codeline>
     </programlisting>
-    <location file="/home/dkoes/git/libmolgrid/src/grid_interpolater.cu"/>
+    <location file="/home/lnm48/libmolgrid-better-docs/src/grid_interpolater.cu"/>
   </compounddef>
 </doxygen>

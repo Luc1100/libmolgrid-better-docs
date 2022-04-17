@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="34" column="17" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="34" column="17" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classlibmolgrid_1_1ExampleExtractor_1a15f56a006f5ce29d6ae2a8d42a57aed7" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="35" column="10" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="35" column="10" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="37" column="12" bodyfile="/home/dkoes/git/libmolgrid/src/example_extractor.cpp" bodystart="55" bodyend="68"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="37" column="12" bodyfile="/home/lnm48/libmolgrid-better-docs/src/example_extractor.cpp" bodystart="55" bodyend="68"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="40" column="5" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" bodystart="40" bodyend="42"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="40" column="5" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" bodystart="40" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleExtractor_1a553fedda20a9ad9f854140456750e118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="44" column="5" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" bodystart="44" bodyend="47"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="44" column="5" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleExtractor_1a53ec0aa6cb7614769917a652f98302bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="51" column="5" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" bodystart="51" bodyend="73"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="51" column="5" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" bodystart="51" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleExtractor_1ab6df92373d981fbc87c81346cf8af157" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="75" column="13" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" bodystart="75" bodyend="75"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="75" column="13" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" bodystart="75" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleExtractor_1a16688c316082e3c32e65e8c0bb03fe9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="78" column="18" bodyfile="/home/dkoes/git/libmolgrid/src/example_extractor.cpp" bodystart="21" bodyend="52"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="78" column="18" bodyfile="/home/lnm48/libmolgrid-better-docs/src/example_extractor.cpp" bodystart="21" bodyend="52"/>
         <referencedby refid="classlibmolgrid_1_1ExampleProvider_1ad04cc9d97399f697fbc874ecfd8109b9" compoundref="example__provider_8cpp" startline="70" endline="74">ExampleProvider::next</referencedby>
         <referencedby refid="classlibmolgrid_1_1ExampleProvider_1adb4bb0435e9db0c63c1c7938385939a0" compoundref="example__provider_8cpp" startline="77" endline="90">ExampleProvider::next_batch</referencedby>
         <referencedby refid="classlibmolgrid_1_1ExampleDataset_1a3cfefbb6aa29709d7db0bdaebb8c7338" compoundref="example__dataset_8cpp" startline="62" endline="68">ExampleDataset::operator[]</referencedby>
@@ -175,9 +175,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="83" column="20" bodyfile="/home/dkoes/git/libmolgrid/src/example_extractor.cpp" bodystart="69" bodyend="71"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="83" column="20" bodyfile="/home/lnm48/libmolgrid-better-docs/src/example_extractor.cpp" bodystart="69" bodyend="71"/>
         <referencedby refid="classlibmolgrid_1_1ExampleDataset_1a59b7170f88e4d8d17e9f4eb5e3d62712" compoundref="example__dataset_8h" startline="64" endline="64">ExampleDataset::num_types</referencedby>
-        <referencedby refid="classlibmolgrid_1_1ExampleProvider_1a59b7170f88e4d8d17e9f4eb5e3d62712" compoundref="example__provider_8h" startline="136" endline="136">ExampleProvider::num_types</referencedby>
+        <referencedby refid="classlibmolgrid_1_1ExampleProvider_1a59b7170f88e4d8d17e9f4eb5e3d62712" compoundref="example__provider_8h" startline="135" endline="135">ExampleProvider::num_types</referencedby>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleExtractor_1a92e331dc0874eea72e24fad42efdddc6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="86" column="20" bodyfile="/home/dkoes/git/libmolgrid/src/example_extractor.cpp" bodystart="73" bodyend="75"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="86" column="20" bodyfile="/home/lnm48/libmolgrid-better-docs/src/example_extractor.cpp" bodystart="73" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classlibmolgrid_1_1ExampleExtractor_1ab179299d9dc6bb3a4bfe868fd60882a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -208,9 +208,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="90" column="25" bodyfile="/home/dkoes/git/libmolgrid/src/example_extractor.cpp" bodystart="77" bodyend="86"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="90" column="25" bodyfile="/home/lnm48/libmolgrid-better-docs/src/example_extractor.cpp" bodystart="77" bodyend="86"/>
         <referencedby refid="classlibmolgrid_1_1ExampleDataset_1a2babcd45f89ff67b4b4887f7ba469ae6" compoundref="example__dataset_8h" startline="66" endline="66">ExampleDataset::get_type_names</referencedby>
-        <referencedby refid="classlibmolgrid_1_1ExampleProvider_1a2babcd45f89ff67b4b4887f7ba469ae6" compoundref="example__provider_8h" startline="138" endline="138">ExampleProvider::get_type_names</referencedby>
+        <referencedby refid="classlibmolgrid_1_1ExampleProvider_1a2babcd45f89ff67b4b4887f7ba469ae6" compoundref="example__provider_8h" startline="137" endline="137">ExampleProvider::get_type_names</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -219,7 +219,7 @@
     <detaileddescription>
 <para>Can take multiple atom typers, in which case they are applied in order, with the last being repeated. </para>
     </detaileddescription>
-    <location file="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" line="32" column="23" bodyfile="/home/dkoes/git/libmolgrid/include/libmolgrid/example_extractor.h" bodystart="32" bodyend="91"/>
+    <location file="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" line="32" column="23" bodyfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example_extractor.h" bodystart="32" bodyend="91"/>
     <listofallmembers>
       <member refid="classlibmolgrid_1_1ExampleExtractor_1a54c779513bcd7e412018cbe0bf0321ff" prot="private" virt="non-virtual"><scope>libmolgrid::ExampleExtractor</scope><name>coord_caches</name></member>
       <member refid="classlibmolgrid_1_1ExampleExtractor_1a5421a698349e82ca0640e45fa6d35429" prot="private" virt="non-virtual"><scope>libmolgrid::ExampleExtractor</scope><name>count_types</name></member>
