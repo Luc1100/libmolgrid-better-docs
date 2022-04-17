@@ -77,7 +77,7 @@ struct Example {
     /** \brief Combine all coordinate sets into one and return it.
      * All coordinate sets must have the same kind of typing.  The result is a copy of the input coordinates.
      * @param[in] start ignore coordinates sets prior to this index (default zero)
-     * @param[in] unique_indexed_types if true, different coordinate sets will have unique, non-overlapping types*/
+     * @param[in] unique_indexed_types if true, different coordinate sets will have unique, non-overlapping types */
     CoordinateSet merge_coordinates(unsigned start = 0, bool unique_index_types=true) const;
 
     // Docstring_Example_merge_coordinates_2
@@ -98,7 +98,7 @@ struct Example {
      * @param[out] type_index combined types
      * @param[out] radii combined radii
      * @param[in] start ignore coordinates sets prior to this index (default zero)
-     * @param[in] unique_indexed_types if true, different coordinate sets will have unique, non-overlapping types*/
+     * @param[in] unique_indexed_types if true, different coordinate sets will have unique, non-overlapping types */
     void merge_coordinates(Grid2f& coords, Grid2f& type_vector, Grid1f& radii, unsigned start=0, bool unique_index_types=true) const;
     void merge_coordinates(std::vector<float3>& coords, std::vector<std::vector<float> >& type_vector, std::vector<float>& radii, unsigned start=0, bool unique_index_types=true) const;
 

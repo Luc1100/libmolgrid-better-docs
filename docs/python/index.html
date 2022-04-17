@@ -305,11 +305,8 @@ This class cannot be instantiated from Python</p>
 <dt class="sig sig-object py" id="molgrid.CartesianGrid">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">molgrid.</span></span><span class="sig-name descname"><span class="pre">CartesianGrid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">(object)arg1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(MGrid3f)arg2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(float3)arg3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(float)arg4</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span> <span class="pre">:</span></span></span><a class="headerlink" href="#molgrid.CartesianGrid" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Boost.Python.instance</span></code></p>
-<blockquote>
-<div><p>Wrapper around grid of type G that imposes Cartesian coordinates.
+<p>Wrapper around grid of type G that imposes Cartesian coordinates.
 Includes center and resolution and supports (eventually) interpolation.</p>
-</div></blockquote>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void __init__(_object*,libmolgrid::ManagedGrid&lt;float, 3ul&gt;,float3,float)</p>
 </dd>
@@ -350,13 +347,10 @@ Includes center and resolution and supports (eventually) interpolation.</p>
 <dt class="sig sig-object py" id="molgrid.CoordinateSet">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">molgrid.</span></span><span class="sig-name descname"><span class="pre">CoordinateSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">(object)arg1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span> <span class="pre">:</span></span></span><a class="headerlink" href="#molgrid.CoordinateSet" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Boost.Python.instance</span></code></p>
-<blockquote>
-<div><p>A collection of typed atomic coordinates</p>
+<p>A collection of typed atomic coordinates</p>
 <p>Types may be specified either as an index or a dense vector.
 Typically, only one type formated will be initialized although
 a vector one-hot encoding of an index type can be created.</p>
-</div></blockquote>
-<p>/</p>
 <blockquote>
 <div><dl class="simple">
 <dt>C++ signature :</dt><dd><p>void __init__(_object*)</p>
@@ -486,24 +480,22 @@ a vector one-hot encoding of an index type can be created.</p>
 <div><blockquote>
 <div><p>convert index types to vector types in-place
 &#64;param include_dummy_type - if true will create an additional type at end (has zero radii if type radii are provided is true)
-&#64;param type_radii - if provided, convert radii array to be type indexed,</p>
+&#64;param type_radii - if provided, convert radii array to be type indexed.</p>
 </div></blockquote>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void make_vector_types(libmolgrid::CoordinateSet {lvalue} [,bool=False [,boost::python::list=[]]])</p>
 </dd>
 </dl>
 </div></blockquote>
-<p>make_vector_types( (CoordinateSet)arg1 [, (bool)include_dummy_type=False [, (FloatVec)type_radii=&lt;molgrid.molgrid.FloatVec object at 0x7ff953f252e0&gt;]]) -&gt; None :</p>
+<p>make_vector_types( (CoordinateSet)arg1 [, (bool)include_dummy_type=False [, (FloatVec)type_radii=&lt;molgrid.molgrid.FloatVec object at 0x7fd47ccc62e0&gt;]]) -&gt; None :</p>
 <blockquote>
 <div><blockquote>
 <div><p>convert index types to vector types in-place
 &#64;param include_dummy_type - if true will create an additional type at end (has zero radii if type radii are provided is true)
-&#64;param type_radii - if provided, convert radii array to be type indexed,</p>
+&#64;param type_radii - if provided, convert radii array to be type indexed.</p>
 </div></blockquote>
-<p>/</p>
 <dl class="simple">
-<dt>C++ signature :</dt><dd><p>void make_vector_types(libmolgrid::CoordinateSet {lvalue} [,bool=False [,std::vector&lt;float, std::allocator&lt;float&gt; &gt;=&lt;molgrid.molgrid.FloatVec object at 0x7ff953f252e0&gt;]])</p>
+<dt>C++ signature :</dt><dd><p>void make_vector_types(libmolgrid::CoordinateSet {lvalue} [,bool=False [,std::vector&lt;float, std::allocator&lt;float&gt; &gt;=&lt;molgrid.molgrid.FloatVec object at 0x7fd47ccc62e0&gt;]])</p>
 </dd>
 </dl>
 </div></blockquote>
@@ -669,10 +661,7 @@ greater than or equal to the specified max is assigned type zero.</p>
 <dt class="sig sig-object py" id="molgrid.Example">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">molgrid.</span></span><span class="sig-name descname"><span class="pre">Example</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">(object)arg1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span> <span class="pre">:</span></span></span><a class="headerlink" href="#molgrid.Example" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Boost.Python.instance</span></code></p>
-<blockquote>
-<div><p>A single example represented by its typed coordinates and label(s)</p>
-</div></blockquote>
-<p>/</p>
+<p>A single example represented by its typed coordinates and label(s)</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void __init__(_object*)</p>
 </dd>
@@ -725,10 +714,9 @@ All coordinate sets must have the same kind of typing.  The result is a copy of 
 <dd class="field-odd"><p>ignore coordinates sets prior to this index (default zero)</p>
 </dd>
 <dt class="field-even">param unique_indexed_types</dt>
-<dd class="field-even"><p>if true, different coordinate sets will have unique, non-overlapping types</p>
+<dd class="field-even"><p>if true, different coordinate sets will have unique, non-overlapping types*/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>libmolgrid::CoordinateSet merge_coordinates(libmolgrid::Example {lvalue} [,unsigned int=0 [,bool=True]])</p>
 </dd>
@@ -754,10 +742,9 @@ All coordinate sets must have index typing</p>
 <dd class="field-even"><p>ignore coordinates sets prior to this index (default zero)</p>
 </dd>
 <dt class="field-odd">param unique_indexed_types</dt>
-<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types</p>
+<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types*/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void merge_coordinates(libmolgrid::Example {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 1ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 1ul, false&gt; {lvalue} [,unsigned int=0 [,bool=True]])</p>
 </dd>
@@ -783,10 +770,9 @@ All coordinate sets must have vector typing</p>
 <dd class="field-even"><p>ignore coordinates sets prior to this index (default zero)</p>
 </dd>
 <dt class="field-odd">param unique_indexed_types</dt>
-<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types</p>
+<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types*/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void merge_coordinates(libmolgrid::Example {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 1ul, false&gt; {lvalue} [,unsigned int=0 [,bool=True]])</p>
 </dd>
@@ -866,8 +852,7 @@ All coordinate sets must have vector typing</p>
 <dt class="sig sig-object py" id="molgrid.ExampleProvider">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">molgrid.</span></span><span class="sig-name descname"><span class="pre">ExampleProvider</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">(object)arg1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span> <span class="pre">:</span></span></span><a class="headerlink" href="#molgrid.ExampleProvider" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Boost.Python.instance</span></code></p>
-<blockquote>
-<div><p>Given a file of examples, provide Example classes one at a time
+<p>Given a file of examples, provide Example classes one at a time
 This contains an ExampleRefProvider, which can be configured using a
 single settings object if so desired, and an example extractor.
 Note that cache_structs is true by default which will load the entirety
@@ -875,8 +860,6 @@ of the dataset into memory.</p>
 <p>An example files contains a single example on each line where an example
 consists of some number of numerical labels (num_labels, will be auto-detected
 if not specified) followed by file paths to molecular data, all space separated.</p>
-</div></blockquote>
-<p>/</p>
 <blockquote>
 <div><dl class="simple">
 <dt>C++ signature :</dt><dd><p>void __init__(_object*)</p>
@@ -2849,10 +2832,10 @@ for maximum CUDA performance.</p>
 </dd>
 </dl>
 </div></blockquote>
-<p>__init__( (object)arg1, (list)map [, (bool)catchall=True [, (StringVec)old_names=&lt;molgrid.molgrid.StringVec object at 0x7ff953f25190&gt;]]) -&gt; object :</p>
+<p>__init__( (object)arg1, (list)map [, (bool)catchall=True [, (StringVec)old_names=&lt;molgrid.molgrid.StringVec object at 0x7fd47ccc6190&gt;]]) -&gt; object :</p>
 <blockquote>
 <div><dl class="simple">
-<dt>C++ signature :</dt><dd><p>void* __init__(boost::python::api::object,boost::python::list [,bool=True [,std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;=&lt;molgrid.molgrid.StringVec object at 0x7ff953f25190&gt;]])</p>
+<dt>C++ signature :</dt><dd><p>void* __init__(boost::python::api::object,boost::python::list [,bool=True [,std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;=&lt;molgrid.molgrid.StringVec object at 0x7fd47ccc6190&gt;]])</p>
 </dd>
 </dl>
 </div></blockquote>

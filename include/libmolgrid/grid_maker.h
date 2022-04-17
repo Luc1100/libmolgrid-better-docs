@@ -29,8 +29,7 @@ namespace libmolgrid {
  * atomic coordinates to grids and vice versa (e.g. forward and backward), it
  * must be passed the grid_center (which may have changed due to
  * transformations performed directly on the atom coordinates externally to
- * this class)
- */
+ * this class) */
 class GridMaker {
   protected:
     float resolution = 0.5; /// grid spacing
@@ -64,8 +63,7 @@ class GridMaker {
      * @param[in] bin boolean indicating if binary density should be used
      * @param[in] rti booliean indicating the radii are type indexed
      * @param[in] rscale scaling factor to be uniformly applied to all input radii
-     * @param[in] grm gaussian radius multiplier - cutoff point for switching from Gaussian density to quadratic.  If negative no quadratic component is included and gradient is truncated at this ratio (-1.5 recommended)
-     */
+     * @param[in] grm gaussian radius multiplier - cutoff point for switching from Gaussian density to quadratic.  If negative no quadratic component is included and gradient is truncated at this ratio (-1.5 recommended) */
 
     GridMaker(float res = 0, float d = 0, bool bin = false, bool rti = false, float rscale=1.0, float grm = 1.0) :
       resolution(res), dimension(d), radius_scale(rscale), gaussian_radius_multiple(grm), final_radius_multiple(0),
@@ -80,8 +78,7 @@ class GridMaker {
      * @param[in] d dimension of cubic grid side in Angstroms
      * @param[in] bin boolean indicating if binary density should be used
      * @param[in] rscale scaling factor to be uniformly applied to all input radii
-     * @param[in] grm gaussian radius multiplier - cutoff point for switching from Gaussian density to quadratic.  If negative no quadratic component is included and gradient is truncated at this ratio (-1.5 recommended)
-     */
+     * @param[in] grm gaussian radius multiplier - cutoff point for switching from Gaussian density to quadratic.  If negative no quadratic component is included and gradient is truncated at this ratio (-1.5 recommended) */
     void initialize(float res, float d, bool bin = false, float rscale=1.0, float grm=1.0);
 
     ///return spatial dimensions of grid
@@ -118,16 +115,14 @@ class GridMaker {
     /** \brief Use externally specified grid_center to determine where grid begins.
      * Used for translating between cartesian coords and grids.
      * @param[in] grid_center - center
-     * @param[out] grid bounds
-     */
+     * @param[out] grid bounds */
     CUDA_CALLABLE_MEMBER float3 get_grid_origin(const float3& grid_center) const;
 
     // Docstring_GridMaker_forward_1
     /* \brief Generate grid tensor from atomic data.  Grid (CPU) must be properly sized.
      * @param[in] center of grid
      * @param[in] coordinate set
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype>
     void forward(float3 grid_center, const CoordinateSet& in, Grid<Dtype, 4, false>& out) const {
       if(in.has_vector_types() && in.size() > 0) {
@@ -141,8 +136,7 @@ class GridMaker {
     /* \brief Generate grid tensor from atomic data.  Grid (GPU) must be properly sized.
      * @param[in] center of grid
      * @param[in] coordinate set
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype>
     void forward(float3 grid_center, const CoordinateSet& in, Grid<Dtype, 4, true>& out) const {
       if(in.has_vector_types() && in.size() > 0) {
@@ -158,8 +152,7 @@ class GridMaker {
      *
      * @param[in] example
      * @param[in] transformation to apply
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype, bool isCUDA>
     void forward(const Example& in, const Transform& transform, Grid<Dtype, 4, isCUDA>& out) const;
 
@@ -172,8 +165,7 @@ class GridMaker {
      * @param[out] a 4D grid
      * @param[in] maximum amount to randomly translate each coordinate (+/-)
      * @param[in] whether or not to randomly rotate
-     * @param[in] grid center to use, if not provided will use center of the last non-empty coordinate set before transformation
-     */
+     * @param[in] grid center to use, if not provided will use center of the last non-empty coordinate set before transformation */
     template <typename Dtype, bool isCUDA>
     void forward(const Example& in, Grid<Dtype, 4, isCUDA>& out,
         float random_translation=0.0, bool random_rotation = false,
@@ -189,8 +181,7 @@ class GridMaker {
      * @param[in] example
      * @param[out] a 4D grid
      * @param[in] maximum amount to randomly translate each coordinate (+/-)
-     * @param[in] whether or not to randomly rotate
-     */
+     * @param[in] whether or not to randomly rotate */
     template <typename Dtype, bool isCUDA>
     void forward(const std::vector<Example>& in, Grid<Dtype, 5, isCUDA>& out, float random_translation=0.0, bool random_rotation = false) const {
       if(in.size() != out.dimension(0)) throw std::out_of_range("output grid dimension does not match size of example vector");
@@ -207,8 +198,7 @@ class GridMaker {
      * @param[in] coordinates (Nx3)
      * @param[in] indices (N integers stored as floats)
      * @param[in] radii (N)
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, false>& coords,
         const Grid<float, 1, false>& type_index, const Grid<float, 1, false>& radii,
@@ -220,8 +210,7 @@ class GridMaker {
      * @param[in] coordinates (Nx3)
      * @param[in] indices (N integers stored as floats)
      * @param[in] radii (N)
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, true>& coords,
         const Grid<float, 1, true>& type_index, const Grid<float, 1, true>& radii,
@@ -234,8 +223,7 @@ class GridMaker {
      * @param[in] coordinates (Nx3)
      * @param[in] vectors (NxT)
      * @param[in] radii (N) or (T)
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, false>& coords,
         const Grid<float, 2, false>& type_vector, const Grid<float, 1, false>& radii,
@@ -247,8 +235,7 @@ class GridMaker {
      * @param[in] coordinates (Nx3)
      * @param[in] vector indices (NxT)
      * @param[in] radii (N) or (T) depending on if radii_type_indexed is set
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, true>& coords,
         const Grid<float, 2, true>& type_vector, const Grid<float, 1, true>& radii,
@@ -260,8 +247,7 @@ class GridMaker {
      * @param[in] coordinates (BxNx3)
      * @param[in] type vectors (BxNxT) or type indices (BxN)
      * @param[in] radii (BxN) or (BxT)
-     * @param[out] a 5D grid
-     */
+     * @param[out] a 5D grid */
     template <typename Dtype, int N,  bool isCUDA>
     void forward(const Grid<float, 2, isCUDA> &centers,
         const Grid<float, 3, isCUDA> &coords,
@@ -309,8 +295,7 @@ class GridMaker {
      * @param[in] coordinate set
      * @param[in] a 4D grid of gradients
      * @param[out] atomic_gradients vector quantities for each atom
-     * @param[out] type_gradients only set if input has type vectors
-     */
+     * @param[out] type_gradients only set if input has type vectors */
     template <typename Dtype>
     void backward(float3 grid_center, const CoordinateSet& in, const Grid<Dtype, 4, false>& diff,
         Grid<Dtype, 2, false>& atomic_gradients, Grid<Dtype, 2, false>& type_gradients) const {
@@ -328,8 +313,7 @@ class GridMaker {
      * @param[in] center of grid
      * @param[in] coordinate set
      * @param[in] a 4D grid of gradients
-     * @param[out] atomic_gradients vector quantities for each atom
-     */
+     * @param[out] atomic_gradients vector quantities for each atom */
     template <typename Dtype>
     void backward(float3 grid_center, const CoordinateSet& in, const Grid<Dtype, 4, false>& diff,
         Grid<Dtype, 2, false>& atomic_gradients) const {
@@ -348,8 +332,7 @@ class GridMaker {
      * @param[in] coordinate set
      * @param[in] a 4D grid of gradients
      * @param[out] atomic_gradients vector quantities for each atom
-     * @param[out] type_gradients only set if input has type vectors
-     */
+     * @param[out] type_gradients only set if input has type vectors */
     template <typename Dtype>
     void backward(float3 grid_center, const CoordinateSet& in, const Grid<Dtype, 4, true>& diff,
         Grid<Dtype, 2, true>& atomic_gradients, Grid<Dtype, 2, true>& type_gradients) const {
@@ -367,8 +350,7 @@ class GridMaker {
      * @param[in] center of grid
      * @param[in] coordinate set
      * @param[in] diff a 4D grid of gradients
-     * @param[out] atomic_gradients vector quantities for each atom
-     */
+     * @param[out] atomic_gradients vector quantities for each atom */
     template <typename Dtype>
     void backward(float3 grid_center, const CoordinateSet& in, const Grid<Dtype, 4, true>& diff,
         Grid<Dtype, 2, true>& atomic_gradients) const {
@@ -387,8 +369,7 @@ class GridMaker {
      * @param[in] type indices (N integers stored as floats)
      * @param[in] radii (N)
      * @param[in] a 4D grid of gradients
-     * @param[out] atomic_gradients vector quantities for each atom
-     */
+     * @param[out] atomic_gradients vector quantities for each atom */
     template <typename Dtype>
     void backward(float3 grid_center, const Grid<float, 2, false>& coords,
         const Grid<float, 1, false>& type_index, const Grid<float, 1, false>& radii,
@@ -402,8 +383,7 @@ class GridMaker {
      * @param[in] type indices (N integers stored as floats)
      * @param[in] radii (N)
      * @param[in] a 4D grid of gradients
-     * @param[out] atomic_gradients vector quantities for each atom
-     */
+     * @param[out] atomic_gradients vector quantities for each atom */
     template <typename Dtype>
     void backward(float3 grid_center, const Grid<float, 2, true>& coords,
         const Grid<float, 1, true>& type_index, const Grid<float, 1, true>& radii,
@@ -418,8 +398,7 @@ class GridMaker {
      * @param[in] radii (N)
      * @param[in] a 4D grid of gradients
      * @param[out] atomic_gradients vector quantities for each atom
-     * @param[out] type_gradients vector quantities for each atom
-     */
+     * @param[out] type_gradients vector quantities for each atom */
     template <typename Dtype>
     void backward(float3 grid_center, const Grid<float, 2, false>& coords,
         const Grid<float, 2, false>& type_vectors, const Grid<float, 1, false>& radii,
@@ -435,9 +414,7 @@ class GridMaker {
      * @param[in] radii (N)
      * @param[in] a 4D grid of gradients
      * @param[out] atomic_gradients vector quantities for each atom
-     * @param[out] type_gradients vector quantities for each atom
-     *
-     */
+     * @param[out] type_gradients vector quantities for each atom */
     template <typename Dtype>
     void backward(float3 grid_center, const Grid<float, 2, true>& coords,
         const Grid<float, 2, true>& type_vectors, const Grid<float, 1, true>& radii,
@@ -457,9 +434,7 @@ class GridMaker {
      * @param[in] type_gradients vector quantities for each atom
      * @param[out] diffdiff a 4D grid of gradients of gradients
      * @param[out] atom_diffdiff vector quantities for each atom
-     * @param[out] type_diffdiff vector quantities for each atom*
-     *
-     */
+     * @param[out] type_diffdiff vector quantities for each atom* */
     template <typename Dtype>
     void backward_gradients(float3 grid_center,  const Grid<float, 2, false>& coords,
         const Grid<float, 2, false>& type_vectors, const Grid<float, 1, false>& radii,
@@ -481,9 +456,7 @@ class GridMaker {
      * @param[in] type_gradients vector quantities for each atom
      * @param[out] diffdiff a 4D grid of gradients of gradients
      * @param[out] atom_diffdiff vector quantities for each atom
-     * @param[out] type_diffdiff vector quantities for each atom*
-     *
-     */
+     * @param[out] type_diffdiff vector quantities for each atom */
     template <typename Dtype>
     void backward_gradients(float3 grid_center,  const Grid<float, 2, true>& coords,
         const Grid<float, 2, true>& type_vectors, const Grid<float, 1, true>& radii,
@@ -502,9 +475,7 @@ class GridMaker {
      * @param[in] type_gradients vector quantities for each atom
      * @param[out] diffdiff a 4D grid of gradients of gradients
      * @param[out] atom_diffdiff vector quantities for each atom
-     * @param[out] type_diffdiff vector quantities for each atom*
-     *
-     */
+     * @param[out] type_diffdiff vector quantities for each atom */
     template <typename Dtype>
     void backward_gradients(float3 grid_center,   const CoordinateSet& in,
         const Grid<Dtype, 4, false>& diff,
@@ -529,9 +500,7 @@ class GridMaker {
      * @param[in] type_gradients vector quantities for each atom
      * @param[out] diffdiff a 4D grid of gradients of gradients
      * @param[out] atom_diffdiff vector quantities for each atom
-     * @param[out] type_diffdiff vector quantities for each atom
-     *
-     */
+     * @param[out] type_diffdiff vector quantities for each atom */
     template <typename Dtype>
     void backward_gradients(float3 grid_center,   const CoordinateSet& in,
         const Grid<Dtype, 4, true>& diff,
@@ -553,8 +522,7 @@ class GridMaker {
      * @param[in] coordinate set
      * @param[in] a 4D grid of densities (used in forward)
      * @param[in] diff a 4D grid of relevance
-     * @param[out] relevance score for each atom
-     */
+     * @param[out] relevance score for each atom */
     template <typename Dtype>
     void backward_relevance(float3 grid_center, const CoordinateSet& in,
         const Grid<Dtype, 4, false>& density, const Grid<Dtype, 4, false>& diff,
@@ -572,8 +540,7 @@ class GridMaker {
      * @param[in] coordinate set
      * @param[in] density a 4D grid of densities (used in forward)
      * @param[in] a 4D grid of relevance
-     * @param[out] relevance score for each atom
-     */
+     * @param[out] relevance score for each atom */
     template <typename Dtype>
     void backward_relevance(float3 grid_center,  const CoordinateSet& in,
         const Grid<Dtype, 4, true>& density, const Grid<Dtype, 4, true>& diff,
@@ -593,8 +560,7 @@ class GridMaker {
      * @param[in] radii
      * @param[in] a 4D grid of densities (used in forward)
      * @param[in] a 4D grid of relevance
-     * @param[out] relevance score for each atom
-     */
+     * @param[out] relevance score for each atom */
     template <typename Dtype>
     void backward_relevance(float3 grid_center,  const Grid<float, 2, false>& coords,
         const Grid<float, 1, false>& type_index, const Grid<float, 1, false>& radii,
@@ -609,8 +575,7 @@ class GridMaker {
      * @param[in] radii
      * @param[in] a 4D grid of densities (used in forward)
      * @param[in] a 4D grid of relevance
-     * @param[out] relevance score for each atom
-     */
+     * @param[out] relevance score for each atom */
     template <typename Dtype>
     void backward_relevance(float3 grid_center,  const Grid<float, 2, true>& coords,
         const Grid<float, 1, true>& type_index, const Grid<float, 1, true>& radii,
@@ -624,8 +589,7 @@ class GridMaker {
      * @param[in] coordinates
      * @param[in] type indices (N integers stored as floats)
      * @param[in] radii (N)
-     * @param[out] a 4D grid
-     */
+     * @param[out] a 4D grid */
     template <typename Dtype, bool Binary>
     CUDA_DEVICE_MEMBER void set_atoms(unsigned natoms, float3 grid_origin,
         const float3 *coords, const float *tindex, const float *radii, Dtype* out);
@@ -637,8 +601,7 @@ class GridMaker {
      * @param[in] type vector (NxT)
      * @param[in] number of types
      * @param[in] radii (N)
-     * @param[out] out a 4D grid
-     */
+     * @param[out] out a 4D grid */
     template <typename Dtype, bool Binary, bool RadiiFromTypes>
     CUDA_DEVICE_MEMBER void set_atoms(unsigned natoms, float3 grid_origin,
         const float3 *coords, const float *type_vec, unsigned ntypes,
@@ -664,8 +627,7 @@ class GridMaker {
      * @param[in] coord atom coordinate in the same dimension
      * @param[in] densityrad atomic density radius (N.B. this is not the atomic radius)
      * @param[out] indices of grid points in the same dimension that could
-     * possibly overlap atom density
-     */
+     * possibly overlap atom density */
     CUDA_CALLABLE_MEMBER uint2 get_bounds_1d(const float grid_origin, float coord,
         float densityrad)  const;
 
@@ -675,8 +637,7 @@ class GridMaker {
      * @param[in] az atomic coord z
      * @param[in] ar atomic radius
      * @param[in] grid_coords grid point coords
-     * @param[out] atom density
-     */
+     * @param[out] atom density */
     template <bool Binary>
     CUDA_CALLABLE_MEMBER float calc_point(float ax, float ay, float az, float ar,
         const float3& grid_coords) const;
