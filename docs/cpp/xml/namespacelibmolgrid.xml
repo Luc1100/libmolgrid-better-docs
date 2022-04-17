@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/lnm48/libmolgrid-better-docs/src/example.cpp" line="20" column="13" bodyfile="/home/lnm48/libmolgrid-better-docs/src/example.cpp" bodystart="20" bodyend="-1" declfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example.h" declline="170" declcolumn="20"/>
+        <location file="/home/lnm48/libmolgrid-better-docs/src/example.cpp" line="20" column="13" bodyfile="/home/lnm48/libmolgrid-better-docs/src/example.cpp" bodystart="20" bodyend="-1" declfile="/home/lnm48/libmolgrid-better-docs/include/libmolgrid/example.h" declline="173" declcolumn="20"/>
         <referencedby refid="classlibmolgrid_1_1CoordCache_1a30e53e7aa53be3caabe1e7b88f4c06f8" compoundref="coord__cache_8cpp" startline="25" endline="73">CoordCache::CoordCache</referencedby>
         <referencedby refid="structlibmolgrid_1_1ExampleRef_1af68ef87a6eab8ca94bd25484c273a402" compoundref="example_8cpp" startline="309" endline="354">ExampleRef::ExampleRef</referencedby>
         <referencedby refid="classlibmolgrid_1_1GroupedExampleRefProvider_1ae630292b50e44deb19e001f322914934" compoundref="exampleref__providers_8h" startline="505" endline="536">GroupedExampleRefProvider&lt; Provider &gt;::nextref</referencedby>

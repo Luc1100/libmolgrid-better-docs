@@ -487,7 +487,7 @@ a vector one-hot encoding of an index type can be created.</p>
 </dd>
 </dl>
 </div></blockquote>
-<p>make_vector_types( (CoordinateSet)arg1 [, (bool)include_dummy_type=False [, (FloatVec)type_radii=&lt;molgrid.molgrid.FloatVec object at 0x7fd47ccc62e0&gt;]]) -&gt; None :</p>
+<p>make_vector_types( (CoordinateSet)arg1 [, (bool)include_dummy_type=False [, (FloatVec)type_radii=&lt;molgrid.molgrid.FloatVec object at 0x7f6cb7f4c040&gt;]]) -&gt; None :</p>
 <blockquote>
 <div><blockquote>
 <div><p>convert index types to vector types in-place
@@ -495,7 +495,7 @@ a vector one-hot encoding of an index type can be created.</p>
 &#64;param type_radii - if provided, convert radii array to be type indexed.</p>
 </div></blockquote>
 <dl class="simple">
-<dt>C++ signature :</dt><dd><p>void make_vector_types(libmolgrid::CoordinateSet {lvalue} [,bool=False [,std::vector&lt;float, std::allocator&lt;float&gt; &gt;=&lt;molgrid.molgrid.FloatVec object at 0x7fd47ccc62e0&gt;]])</p>
+<dt>C++ signature :</dt><dd><p>void make_vector_types(libmolgrid::CoordinateSet {lvalue} [,bool=False [,std::vector&lt;float, std::allocator&lt;float&gt; &gt;=&lt;molgrid.molgrid.FloatVec object at 0x7f6cb7f4c040&gt;]])</p>
 </dd>
 </dl>
 </div></blockquote>
@@ -714,9 +714,10 @@ All coordinate sets must have the same kind of typing.  The result is a copy of 
 <dd class="field-odd"><p>ignore coordinates sets prior to this index (default zero)</p>
 </dd>
 <dt class="field-even">param unique_indexed_types</dt>
-<dd class="field-even"><p>if true, different coordinate sets will have unique, non-overlapping types*/</p>
+<dd class="field-even"><p>if true, different coordinate sets will have unique, non-overlapping types</p>
 </dd>
 </dl>
+<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>libmolgrid::CoordinateSet merge_coordinates(libmolgrid::Example {lvalue} [,unsigned int=0 [,bool=True]])</p>
 </dd>
@@ -742,9 +743,10 @@ All coordinate sets must have index typing</p>
 <dd class="field-even"><p>ignore coordinates sets prior to this index (default zero)</p>
 </dd>
 <dt class="field-odd">param unique_indexed_types</dt>
-<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types*/</p>
+<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types</p>
 </dd>
 </dl>
+<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void merge_coordinates(libmolgrid::Example {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 1ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 1ul, false&gt; {lvalue} [,unsigned int=0 [,bool=True]])</p>
 </dd>
@@ -770,9 +772,10 @@ All coordinate sets must have vector typing</p>
 <dd class="field-even"><p>ignore coordinates sets prior to this index (default zero)</p>
 </dd>
 <dt class="field-odd">param unique_indexed_types</dt>
-<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types*/</p>
+<dd class="field-odd"><p>if true, different coordinate sets will have unique, non-overlapping types</p>
 </dd>
 </dl>
+<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void merge_coordinates(libmolgrid::Example {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt; {lvalue},libmolgrid::Grid&lt;float, 1ul, false&gt; {lvalue} [,unsigned int=0 [,bool=True]])</p>
 </dd>
@@ -1554,23 +1557,22 @@ Calculate gnina types</p>
 <h3>The <code class="docutils literal notranslate"><span class="pre">GridMaker</span></code> class<a class="headerlink" href="#the-gridmaker-class" title="Permalink to this headline"></a></h3>
 <dl class="py class">
 <dt class="sig sig-object py" id="molgrid.GridMaker">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">molgrid.</span></span><span class="sig-name descname"><span class="pre">GridMaker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">(object)arg1</span></span></em><span class="optional">[</span>, <em class="sig-param"><span class="n"><span class="pre">(float)resolution=0.5</span></span></em><span class="optional">[</span>, <em class="sig-param"><span class="n"><span class="pre">(float)dimension=23.5</span></span></em><span class="optional">[</span>, <em class="sig-param"><span class="n"><span class="pre">(bool)binary=False</span></span></em><span class="optional">[</span>, <em class="sig-param"><span class="n"><span class="pre">(bool)radius_type_indexed=False</span></span></em><span class="optional">[</span>, <em class="sig-param"><span class="n"><span class="pre">(float)radius_scale=1.0</span></span></em><span class="optional">[</span>, <em class="sig-param"><span class="n"><span class="pre">(float)gaussian_radius_multiple=1.0</span></span></em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span> <span class="pre">:</span></span></span><a class="headerlink" href="#molgrid.GridMaker" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">molgrid.</span></span><span class="sig-name descname"><span class="pre">GridMaker</span></span><a class="headerlink" href="#molgrid.GridMaker" title="Permalink to this definition"></a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Boost.Python.instance</span></code></p>
-<blockquote>
-<div><p>GridMaker
-Populates a grid with atom density values that correspond to atoms in a
+<p>Populates a grid with atom density values that correspond to atoms in a
 CoordinateSet and accumulates atomic gradients from the grid gradients.
 It stores state about universal grid settings. In functions that map from
 atomic coordinates to grids and vice versa (e.g. forward and backward), it
 must be passed the grid_center (which may have changed due to
 transformations performed directly on the atom coordinates externally to
 this class)</p>
-</div></blockquote>
-<p>/</p>
-<dl class="simple">
+<p>__init__( (object)arg1 [, (float)resolution=0.5 [, (float)dimension=23.5 [, (bool)binary=False [, (bool)radius_type_indexed=False [, (float)radius_scale=1.0 [, (float)gaussian_radius_multiple=1.0]]]]]]) -&gt; None :</p>
+<blockquote>
+<div><dl class="simple">
 <dt>C++ signature :</dt><dd><p>void __init__(_object* [,float=0.5 [,float=23.5 [,bool=False [,bool=False [,float=1.0 [,float=1.0]]]]]])</p>
 </dd>
 </dl>
+</div></blockquote>
 <dl class="py method">
 <dt class="sig sig-object py" id="molgrid.GridMaker.backward">
 <span class="sig-name descname"><span class="pre">backward</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">(GridMaker)arg1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(float3)arg2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(CoordinateSet)arg3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(Grid4f)arg4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(Grid2f)arg5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">(Grid2f)arg6</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span> <span class="pre">:</span></span></span><a class="headerlink" href="#molgrid.GridMaker.backward" title="Permalink to this definition"></a></dt>
@@ -1594,10 +1596,9 @@ Vector types are required.</p>
 <dd class="field-even"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-odd">param type_gradients</dt>
-<dd class="field-odd"><p>only set if input has type vectors</p>
+<dd class="field-odd"><p>only set if input has type vectors <a href="#id1"><span class="problematic" id="id2">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;)</p>
 </dd>
@@ -1621,10 +1622,9 @@ Index types are required</p>
 <dd class="field-odd"><p>4D grid of gradients</p>
 </dd>
 <dt class="field-even">param atomic_gradients</dt>
-<dd class="field-even"><p>vector quantities for each atom</p>
+<dd class="field-even"><p>vector quantities for each atom <a href="#id3"><span class="problematic" id="id4">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;)</p>
 </dd>
@@ -1651,10 +1651,9 @@ Vector types are required.</p>
 <dd class="field-even"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-odd">param type_gradients</dt>
-<dd class="field-odd"><p>only set if input has type vectors</p>
+<dd class="field-odd"><p>only set if input has type vectors <a href="#id5"><span class="problematic" id="id6">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;)</p>
 </dd>
@@ -1678,10 +1677,9 @@ Index types are required.</p>
 <dd class="field-odd"><p>a 4D grid of gradients</p>
 </dd>
 <dt class="field-even">param atomic_gradients</dt>
-<dd class="field-even"><p>vector quantities for each atom</p>
+<dd class="field-even"><p>vector quantities for each atom <a href="#id7"><span class="problematic" id="id8">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;)</p>
 </dd>
@@ -1712,10 +1710,9 @@ Must provide atom coordinates, types, and radii that defined the original grid i
 <dd class="field-odd"><p>4D grid of gradients</p>
 </dd>
 <dt class="field-even">param atomic_gradients</dt>
-<dd class="field-even"><p>vector quantities for each atom</p>
+<dd class="field-even"><p>vector quantities for each atom <a href="#id9"><span class="problematic" id="id10">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 1ul, false&gt;,libmolgrid::Grid&lt;float, 1ul, false&gt;,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;)</p>
 </dd>
@@ -1746,10 +1743,9 @@ Must provide atom coordinates, types, and radii that defined the original grid i
 <dd class="field-odd"><p>4D grid of gradients</p>
 </dd>
 <dt class="field-even">param atomic_gradients</dt>
-<dd class="field-even"><p>vector quantities for each atom</p>
+<dd class="field-even"><p>vector quantities for each atom <a href="#id11"><span class="problematic" id="id12">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 1ul, true&gt;,libmolgrid::Grid&lt;float, 1ul, true&gt;,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;)</p>
 </dd>
@@ -1783,10 +1779,9 @@ Must provide atom coordinates, types, and radii that defined the original grid i
 <dd class="field-even"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-odd">param type_gradients</dt>
-<dd class="field-odd"><p>vector quantities for each atom</p>
+<dd class="field-odd"><p>vector quantities for each atom <a href="#id13"><span class="problematic" id="id14">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 1ul, false&gt;,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;)</p>
 </dd>
@@ -1820,10 +1815,9 @@ Must provide atom coordinates, types, and radii that defined the original grid i
 <dd class="field-even"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-odd">param type_gradients</dt>
-<dd class="field-odd"><p>vector quantities for each atom</p>
+<dd class="field-odd"><p>vector quantities for each atom <a href="#id15"><span class="problematic" id="id16">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 1ul, true&gt;,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;)</p>
 </dd>
@@ -1871,10 +1865,9 @@ and grid gradients from backward.</p>
 <dd class="field-odd"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-even">param type_diffdiff</dt>
-<dd class="field-even"><p>vector quantities for each atom*</p>
+<dd class="field-even"><p>vector quantities for each atom* <a href="#id17"><span class="problematic" id="id18">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward_gradients(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 1ul, false&gt;,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;)</p>
 </dd>
@@ -1918,10 +1911,9 @@ and grid gradients from backward.</p>
 <dd class="field-odd"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-even">param type_diffdiff</dt>
-<dd class="field-even"><p>vector quantities for each atom*</p>
+<dd class="field-even"><p>vector quantities for each atom <a href="#id19"><span class="problematic" id="id20">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward_gradients(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 1ul, true&gt;,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;)</p>
 </dd>
@@ -1954,10 +1946,9 @@ and grid gradients from backward.</p>
 <dd class="field-even"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-odd">param type_diffdiff</dt>
-<dd class="field-odd"><p>vector quantities for each atom*</p>
+<dd class="field-odd"><p>vector quantities for each atom <a href="#id21"><span class="problematic" id="id22">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward_gradients(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 4ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;)</p>
 </dd>
@@ -1990,10 +1981,9 @@ and grid gradients from backward.</p>
 <dd class="field-even"><p>vector quantities for each atom</p>
 </dd>
 <dt class="field-odd">param type_diffdiff</dt>
-<dd class="field-odd"><p>vector quantities for each atom</p>
+<dd class="field-odd"><p>vector quantities for each atom <a href="#id23"><span class="problematic" id="id24">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void backward_gradients(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 4ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;)</p>
 </dd>
@@ -2078,10 +2068,9 @@ will be used as the grid center.</p>
 <dd class="field-odd"><p>amount to randomly translate each coordinate (+/-)</p>
 </dd>
 <dt class="field-even">param whether</dt>
-<dd class="field-even"><p>or not to randomly rotate</p>
+<dd class="field-even"><p>or not to randomly rotate <a href="#id25"><span class="problematic" id="id26">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},std::vector&lt;libmolgrid::Example, std::allocator&lt;libmolgrid::Example&gt; &gt;,libmolgrid::Grid&lt;float, 5ul, false&gt; [,float=0.0 [,bool=False]])</p>
 </dd>
@@ -2106,10 +2095,9 @@ will be used as the grid center.</p>
 <dd class="field-odd"><p>amount to randomly translate each coordinate (+/-)</p>
 </dd>
 <dt class="field-even">param whether</dt>
-<dd class="field-even"><p>or not to randomly rotate</p>
+<dd class="field-even"><p>or not to randomly rotate <a href="#id27"><span class="problematic" id="id28">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},std::vector&lt;libmolgrid::Example, std::allocator&lt;libmolgrid::Example&gt; &gt;,libmolgrid::Grid&lt;float, 5ul, true&gt; [,float=0.0 [,bool=False]])</p>
 </dd>
@@ -2128,10 +2116,9 @@ will be used as the grid center.</p>
 <dd class="field-even"><p>set</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id29"><span class="problematic" id="id30">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, false&gt;)</p>
 </dd>
@@ -2150,10 +2137,9 @@ will be used as the grid center.</p>
 <dd class="field-even"><p>set</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id31"><span class="problematic" id="id32">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::CoordinateSet,libmolgrid::Grid&lt;float, 4ul, true&gt;)</p>
 </dd>
@@ -2172,10 +2158,9 @@ The center specified in the transform will be used as the grid center.</p>
 <dd class="field-even"><p>to apply</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id33"><span class="problematic" id="id34">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},libmolgrid::Example,libmolgrid::Transform,libmolgrid::Grid&lt;float, 4ul, false&gt;)</p>
 </dd>
@@ -2194,10 +2179,9 @@ The center specified in the transform will be used as the grid center.</p>
 <dd class="field-even"><p>to apply</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id35"><span class="problematic" id="id36">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},libmolgrid::Example,libmolgrid::Transform,libmolgrid::Grid&lt;float, 4ul, true&gt;)</p>
 </dd>
@@ -2224,10 +2208,9 @@ The center specified in the transform will be used as the grid center.</p>
 </ol>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id37"><span class="problematic" id="id38">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 1ul, false&gt;,libmolgrid::Grid&lt;float, 1ul, false&gt;,libmolgrid::Grid&lt;float, 4ul, false&gt; {lvalue})</p>
 </dd>
@@ -2254,10 +2237,9 @@ The center specified in the transform will be used as the grid center.</p>
 </ol>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id39"><span class="problematic" id="id40">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 1ul, true&gt;,libmolgrid::Grid&lt;float, 1ul, true&gt;,libmolgrid::Grid&lt;float, 4ul, true&gt; {lvalue})</p>
 </dd>
@@ -2284,10 +2266,9 @@ The center specified in the transform will be used as the grid center.</p>
 </ol>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id41"><span class="problematic" id="id42">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 1ul, false&gt;,libmolgrid::Grid&lt;float, 4ul, false&gt;)</p>
 </dd>
@@ -2314,10 +2295,9 @@ The center specified in the transform will be used as the grid center.</p>
 </ol>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>4D grid</p>
+<dd class="field-odd"><p>4D grid <a href="#id43"><span class="problematic" id="id44">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},float3,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 1ul, true&gt;,libmolgrid::Grid&lt;float, 4ul, true&gt;)</p>
 </dd>
@@ -2342,10 +2322,9 @@ The center specified in the transform will be used as the grid center.</p>
 <dd class="field-even"><p>(BxN) or (BxT)</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>5D grid</p>
+<dd class="field-odd"><p>5D grid <a href="#id45"><span class="problematic" id="id46">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 3ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 5ul, false&gt;)</p>
 </dd>
@@ -2370,10 +2349,9 @@ The center specified in the transform will be used as the grid center.</p>
 <dd class="field-even"><p>(BxN) or (BxT)</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>5D grid</p>
+<dd class="field-odd"><p>5D grid <a href="#id47"><span class="problematic" id="id48">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 3ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 5ul, true&gt;)</p>
 </dd>
@@ -2398,10 +2376,9 @@ The center specified in the transform will be used as the grid center.</p>
 <dd class="field-even"><p>(BxN) or (BxT)</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>5D grid</p>
+<dd class="field-odd"><p>5D grid <a href="#id49"><span class="problematic" id="id50">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 3ul, false&gt;,libmolgrid::Grid&lt;float, 3ul, false&gt;,libmolgrid::Grid&lt;float, 2ul, false&gt;,libmolgrid::Grid&lt;float, 5ul, false&gt;)</p>
 </dd>
@@ -2426,10 +2403,9 @@ The center specified in the transform will be used as the grid center.</p>
 <dd class="field-even"><p>(BxN) or (BxT)</p>
 </dd>
 <dt class="field-odd">param a</dt>
-<dd class="field-odd"><p>5D grid</p>
+<dd class="field-odd"><p>5D grid <a href="#id51"><span class="problematic" id="id52">*</span></a>/</p>
 </dd>
 </dl>
-<p>/</p>
 <dl class="simple">
 <dt>C++ signature :</dt><dd><p>void forward(libmolgrid::GridMaker {lvalue},libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 3ul, true&gt;,libmolgrid::Grid&lt;float, 3ul, true&gt;,libmolgrid::Grid&lt;float, 2ul, true&gt;,libmolgrid::Grid&lt;float, 5ul, true&gt;)</p>
 </dd>
@@ -2832,10 +2808,10 @@ for maximum CUDA performance.</p>
 </dd>
 </dl>
 </div></blockquote>
-<p>__init__( (object)arg1, (list)map [, (bool)catchall=True [, (StringVec)old_names=&lt;molgrid.molgrid.StringVec object at 0x7fd47ccc6190&gt;]]) -&gt; object :</p>
+<p>__init__( (object)arg1, (list)map [, (bool)catchall=True [, (StringVec)old_names=&lt;molgrid.molgrid.StringVec object at 0x7f6cb7f65dd0&gt;]]) -&gt; object :</p>
 <blockquote>
 <div><dl class="simple">
-<dt>C++ signature :</dt><dd><p>void* __init__(boost::python::api::object,boost::python::list [,bool=True [,std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;=&lt;molgrid.molgrid.StringVec object at 0x7fd47ccc6190&gt;]])</p>
+<dt>C++ signature :</dt><dd><p>void* __init__(boost::python::api::object,boost::python::list [,bool=True [,std::vector&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, std::allocator&lt;std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; &gt; &gt;=&lt;molgrid.molgrid.StringVec object at 0x7f6cb7f65dd0&gt;]])</p>
 </dd>
 </dl>
 </div></blockquote>

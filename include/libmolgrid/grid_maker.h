@@ -130,7 +130,7 @@ class GridMaker {
       } else {
         forward(grid_center, in.coords.cpu(), in.type_index.cpu(), in.radii.cpu(), out);
       }
-    }
+    } \
 
     // Docstring_GridMaker_forward_2
     /* \brief Generate grid tensor from atomic data.  Grid (GPU) must be properly sized.
@@ -144,7 +144,7 @@ class GridMaker {
       } else {
         forward(grid_center, in.coords.gpu(), in.type_index.gpu(), in.radii.gpu(), out);
       }
-    }
+    } \
 
     // Docstring_GridMaker_forward_3
     /* \brief Generate grid tensor from an example while applying a transformation.
@@ -154,7 +154,7 @@ class GridMaker {
      * @param[in] transformation to apply
      * @param[out] a 4D grid */
     template <typename Dtype, bool isCUDA>
-    void forward(const Example& in, const Transform& transform, Grid<Dtype, 4, isCUDA>& out) const;
+    void forward(const Example& in, const Transform& transform, Grid<Dtype, 4, isCUDA>& out) const; \
 
     // Docstring_GridMaker_forward_4
     /* \brief Generate grid tensor from an example.
@@ -169,7 +169,7 @@ class GridMaker {
     template <typename Dtype, bool isCUDA>
     void forward(const Example& in, Grid<Dtype, 4, isCUDA>& out,
         float random_translation=0.0, bool random_rotation = false,
-        const float3& center = make_float3(INFINITY, INFINITY, INFINITY)) const;
+        const float3& center = make_float3(INFINITY, INFINITY, INFINITY)) const; \
 
     // Docstring_GridMaker_forward_5
     /* \brief Generate grid tensor from a vector of examples, as provided by ExampleProvider.next_batch.
@@ -189,7 +189,7 @@ class GridMaker {
         Grid<Dtype, 4, isCUDA> g(out[i]);
         forward<Dtype,isCUDA>(in[i],g, random_translation, random_rotation);
       }
-    }
+    } \
 
 
     // Docstring_GridMaker_forward_6
@@ -202,7 +202,7 @@ class GridMaker {
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, false>& coords,
         const Grid<float, 1, false>& type_index, const Grid<float, 1, false>& radii,
-        Grid<Dtype, 4, false>& out) const;
+        Grid<Dtype, 4, false>& out) const; \
 
     // Docstring_GridMaker_forward_7
     /* \brief Generate grid tensor from GPU atomic data.  Grid must be properly sized.
@@ -214,7 +214,7 @@ class GridMaker {
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, true>& coords,
         const Grid<float, 1, true>& type_index, const Grid<float, 1, true>& radii,
-        Grid<Dtype, 4, true>& out) const;
+        Grid<Dtype, 4, true>& out) const; \
         
         
     // Docstring_GridMaker_forward_8
@@ -227,7 +227,7 @@ class GridMaker {
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, false>& coords,
         const Grid<float, 2, false>& type_vector, const Grid<float, 1, false>& radii,
-        Grid<Dtype, 4, false>& out) const;
+        Grid<Dtype, 4, false>& out) const; \
 
     // Docstring_GridMaker_forward_9
     /* \brief Generate grid tensor from GPU atomic data.  Grid must be properly sized.
@@ -239,7 +239,7 @@ class GridMaker {
     template <typename Dtype>
     void forward(float3 grid_center, const Grid<float, 2, true>& coords,
         const Grid<float, 2, true>& type_vector, const Grid<float, 1, true>& radii,
-        Grid<Dtype, 4, true>& out) const;
+        Grid<Dtype, 4, true>& out) const; \
 
     // Docstring_GridMaker_forward_10
     /* \brief Generate grid tensors from batched atomic data.  Grid must be properly sized.
@@ -284,7 +284,7 @@ class GridMaker {
         Grid<Dtype, 4, isCUDA> O = out[i];
         forward(center, C, T, R, O);
       }
-    }
+    } \
 
 
     // Docstring_GridMaker_backward_1
